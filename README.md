@@ -1,2 +1,2 @@
 # PractiseMasterPlugin
-Open source to test wiring of jsdeliver for bundling and cdn
+Open source version of the PractiseMaster plug to test wiring of jsdeliver for its bundling and cdn.
