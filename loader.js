@@ -35,7 +35,7 @@
     document.body.appendChild(jquiScript);
 
     var pageScript = document.createElement("script");
-    pageScript.src = "https://cdn.jsdelivr.net/gh/StephanLuis/jsDeliverTest@t1/page.min.js";
+    pageScript.src = "https://cdn.jsdelivr.net/gh/StephanLuis/jsDeliverTest@t5/page.min.js";
     document.body.appendChild(pageScript);
 
 
