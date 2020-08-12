@@ -174,7 +174,7 @@ class ControlSet {
 
         var imageHTML = document.createElement("IMG");
         imageHTML.id = "FClogo";
-        imageHTML.src = "GitHubTestRepo/Icons/pageIcon.svg";
+        imageHTML.src = "https://cdn.jsdelivr.net/gh/StephanLuis/jsDeliverTest@t1/Icons/pageIcon.svg";
         imageHTML.classList.add("logo");
 
         $(this.elementToAppend).before(imageHTML);
