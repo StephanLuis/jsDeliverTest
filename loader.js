@@ -27,7 +27,7 @@
     document.head.appendChild(pageCSSLink);
 
     var jqScript = document.createElement("script");
-    jqScript.src = https://cdn.jsdelivr.net/gh/StephanLuis/jsDeliverTest@t1/External/js/jquery.min.js";
+    jqScript.src = "https://cdn.jsdelivr.net/gh/StephanLuis/jsDeliverTest@t1/External/js/jquery.min.js";
     document.body.appendChild(jqScript);
 
     var jquiScript = document.createElement("script");
