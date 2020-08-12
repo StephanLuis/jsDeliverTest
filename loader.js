@@ -11,13 +11,32 @@
     // your page initialization code here
     // the DOM will be available here
 
-    var jquiLink = document.createElement("link");
-    jquiLink.rel = "stylesheet";
-    jquiLink.href = "https://cdn.jsdelivr.net/gh/StephanLuis/jsDeliverTest@t1/External/css/jquery-ui.min.css";
-    document.head.appendChild(jquiLink);
+    var jquiCSSLink = document.createElement("link");
+    jquiCSSLink.rel = "stylesheet";
+    jquiCSSLink.href = "https://cdn.jsdelivr.net/gh/StephanLuis/jsDeliverTest@t1/External/css/jquery-ui.min.css";
+    document.head.appendChild(jquiCSSLink);
 
+    var sliderCSSLink = document.createElement("link");
+    sliderCSSLink.rel = "stylesheet";
+    sliderCSSLink.href = "https://cdn.jsdelivr.net/gh/StephanLuis/jsDeliverTest@t1/External/css/timeslider.min.css";
+    document.head.appendChild(sliderCSSLink);
 
+    var pageCSSLink = document.createElement("link");
+    pageCSSLink.rel = "stylesheet";
+    pageCSSLink.href = "https://cdn.jsdelivr.net/gh/StephanLuis/jsDeliverTest@t1/page.min.css";
+    document.head.appendChild(pageCSSLink);
 
+    var jqScript = document.createElement("script");
+    jqScript.src = https://cdn.jsdelivr.net/gh/StephanLuis/jsDeliverTest@t1/External/js/jquery.min.js";
+    document.body.appendChild(jqScript);
+
+    var jquiScript = document.createElement("script");
+    jquiScript.src = "https://cdn.jsdelivr.net/gh/StephanLuis/jsDeliverTest@t1/External/js/jquery-ui.min.js";
+    document.body.appendChild(jquiScript);
+
+    var pageScript = document.createElement("script");
+    pageScript.src = "https://cdn.jsdelivr.net/gh/StephanLuis/jsDeliverTest@t1/page.min.js";
+    document.body.appendChild(pageScript);
 
 
 })();
